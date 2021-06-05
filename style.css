@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1:hover {
+  transform: translateY(-10px);
+  transition: 1s ease-in-out;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background-image: url("people.jpg");
+  height: 80vh;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  font-weight: 200;
+}
+.container img {
+  width: 300px;
+  height: 300px;
+}
+.card-img-top {
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-right: 0;
+}
+.card {
+  box-shadow: 0 2px 7px;
+  transition: 0.7s ease-in-out;
+  border-radius: 10px;
+  display: felx;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover {
+  transform: translateY(-20px);
+}
+#foot {
+  background: url("foot1.jpg");
+
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 7px;
+}
